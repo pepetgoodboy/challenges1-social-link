@@ -1,4 +1,5 @@
 import Button from "./components/Elements/Button/Button";
+import avatarJessica from "./assets/images/avatar-jessica.jpeg";
 
 export default function App() {
   return (
@@ -7,7 +8,7 @@ export default function App() {
         <div className="bg-Dark-Grey w-64 h-96 rounded-lg">
           <div className="py-6 flex flex-col items-center justify-center gap-3 font-inter">
             <div className="w-14 h-14">
-              <img className="rounded-full" src="./src/assets/images/avatar-jessica.jpeg" />
+              <img className="rounded-full" src={avatarJessica} />
             </div>
             <div className="text-center">
               <h1 className="text-White text-[16px] font-medium">Jessica Randall</h1>
